@@ -22,6 +22,7 @@ body {
     margin: 0;
     text-align: center;
     font-family: Rubik, sans-serif;
+    font-size: medium;
 }
 
 .row {
@@ -111,6 +112,7 @@ body {
 }
 .banner_text {
     font-family: Josefin, sans-serif;
+    font-size: larger;
     color: #4295c9;
     position: relative;
     top: 200px;

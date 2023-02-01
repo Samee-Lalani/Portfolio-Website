@@ -1,10 +1,17 @@
+@font-face {
+    src: url(fonts/Rubik);
+    font-family: Rubik;
+    src: url(fonts/Jose);
+    font-family: Jose;
+}
+
 body {
     background-color: #f3f3f3;
     color: #283747
     font-size 150px;
     margin: 0;
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: Rubik;
 }
 
 .row {
@@ -93,6 +100,7 @@ body {
     border: 5px;
 }
 .banner_text {
+    font-family: Rubik;
     color: #4295c9;
     position: relative;
     top: 200px;

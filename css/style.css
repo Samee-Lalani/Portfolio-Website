@@ -16,13 +16,17 @@
 
 
 body {
-    background-color: #f3f3f3;
-    color: #283747
+    background-color: #1d0045;
+    color: #4295c9
     font-size 150px;
     margin: 0;
     text-align: center;
     font-family: Rubik, sans-serif;
     font-size: medium;
+}
+
+.aboveCard{
+    color: #4295c9;
 }
 
 .row {
@@ -105,7 +109,7 @@ body {
 }
 .copyright {
     color: #F3F3F3;
-    background-color:#283747;
+    background-color:#4295c9;
     position: relative;
     padding: 10px;
     border: 5px;
@@ -129,14 +133,20 @@ body {
 }
 
 dt {
-    color: #DE354C;
+    color: #4295c9;
     font-size:large
 }
 
 a {
-    color: #932432;
+    color: #be42c9;
     text-decoration: none;
 }
+
+a:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+    color:#004155;
+  }
+
 
 .top {
     color: #932432;

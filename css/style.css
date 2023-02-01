@@ -1,9 +1,19 @@
 @font-face {
-    src: url(fonts/Rubik);
-    font-family: Rubik;
-    src: url(fonts/Jose);
-    font-family: Jose;
+    src: url(../fonts/Lobster-Regular.ttf);
+    font-family: Lobster;
 }
+
+@font-face {
+    src: url(../fonts/Rubik.ttf);
+    font-family: Rubik;
+}
+
+
+@font-face {
+    src: url(../fonts/Josefin.ttf);
+    font-family: Josefin;
+}
+
 
 body {
     background-color: #f3f3f3;
@@ -11,7 +21,7 @@ body {
     font-size 150px;
     margin: 0;
     text-align: center;
-    font-family: Rubik;
+    font-family: Rubik, sans-serif;
 }
 
 .row {
@@ -100,7 +110,7 @@ body {
     border: 5px;
 }
 .banner_text {
-    font-family: Rubik;
+    font-family: Josefin, sans-serif;
     color: #4295c9;
     position: relative;
     top: 200px;
